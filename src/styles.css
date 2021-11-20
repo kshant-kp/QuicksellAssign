@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Avenir;
+  src: url("RegencieLightAlt-KMLl.ttf");
+}
+
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-family: Avenir;
+}
+
+.counter {
+  display: block;
+  position: relative;
+  width: 257px;
+  height: 130px;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgb(194, 194, 194);
+  height: 130px;
+  margin: 150px auto;
+  background-color: #ffffff;
+}
+
+.counter-block {
+  display: block;
+  position: absolute;
+  top: 37px;
+  left: 38.5px;
+  width: 180px;
+  height: 56px;
+  border: 1px solid #b24242;
+  border-radius: 8px;
+  background-color: #fbe8e8;
+}
+
+.btn-p {
+  position: absolute;
+  right: 37px;
+  top: 38px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  border: none;
+  border-left: 1px solid #b24242;
+  border-right: 1px solid #b24242;
+  border-radius: 0 8px 8px 0;
+  width: 60px;
+  height: 56px;
+  background-color: #b24242;
+}
+.btn-m {
+  position: absolute;
+  left: 38px;
+  top: 38px;
+  color: #b24242;
+  font-size: 21px;
+  font-weight: 900;
+  border: none;
+  border-left: 1px solid #b24242;
+  border-right: 1px solid #b24242;
+  border-radius: 8px 0 0 8px;
+  width: 60px;
+  height: 56px;
+  background-color: #ffffff;
+}
+
+.cv {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+  bottom: 11px;
+  left: 42px;
+}
+
+.inp {
+  text-align: center;
+  color: #b24242;
+  margin: 14px 77.5px 13px 63px;
+  width: 54px;
+  font-size: 21px;
+  font-weight: 900;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.load {
+  position: absolute;
+  top: 10px;
+  left: 67px;
+  height: 40px;
+}
+
+.loader {
+  position: absolute;
+  left: 41px;
+  top: 11px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 2px dotted #000000;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
